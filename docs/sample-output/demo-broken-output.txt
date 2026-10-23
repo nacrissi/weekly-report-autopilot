@@ -1,0 +1,18 @@
+== Weekly Report Autopilot: local demo ==
+Mode: broken (unknown-store)
+Generated fake field-ops data for week 2026-W42 with a deliberate "unknown-store" break.
+
+Validation: FAILED
+  [PASS] Every required source is present for the report week
+  [PASS] Every row in every source is stamped with the report week
+  [PASS] No source added, removed, or renamed a column
+  [PASS] No source repeats the same store in the same week
+  [PASS] No source has a blank week or store_id
+  [PASS] No source row count swung more than 30% vs prior week
+  [FAIL] Every store id referenced exists in the store list
+
+Blocking errors:
+  - Source "sellout" references store id not in the store list: ST-999.
+
+Build refused: fix the error above before this week's deck can render.
+Elapsed: 0.01s

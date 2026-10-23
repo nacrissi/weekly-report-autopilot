@@ -1,0 +1,16 @@
+== Weekly Report Autopilot: local demo ==
+Mode: clean
+Generated fake field-ops data for week 2026-W42.
+
+Validation: PASSED
+  [PASS] Every required source is present for the report week
+  [PASS] Every row in every source is stamped with the report week
+  [PASS] No source added, removed, or renamed a column
+  [PASS] No source repeats the same store in the same week
+  [PASS] No source has a blank week or store_id
+  [PASS] No source row count swung more than 30% vs prior week
+  [PASS] Every store id referenced exists in the store list
+
+Built 11-slide deck in 0.02s.
+  out/deck-spec.json
+  out/deck.html
